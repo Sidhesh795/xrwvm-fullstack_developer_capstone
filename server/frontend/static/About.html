@@ -1,11 +1,16 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <!-- Link the style sheet here -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Best Cars Dealership</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
+<body>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <h2 style="padding-right: 5%;">Best Cars</h2>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,44 +30,63 @@
     </div>
   </nav>
   
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
-        </div>
-      </div>
-    </div>
-    </div>
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="banner about-header" style="padding: 30px; background-color: #f8f9fa; text-align: center;">
+      <!-- Header information as per task requirements -->
+      <h1>About Us</h1>
+      <p style="font-size: 1.1em; margin-top: 15px;">
+        Welcome to Best Cars dealership, home to the best cars in North America. 
+        We deal in sale of domestic and imported cars at reasonable prices.
+      </p>
+      <p style="font-size: 1em; margin-top: 10px;">
+        With over 20 years of experience in the automotive industry, we pride ourselves 
+        on providing exceptional customer service and quality vehicles. Our dedicated team 
+        is committed to helping you find the perfect car that fits your needs and budget.
+      </p>
     </div>
     
-</div>
+    <div style="display: flex; flex-direction: row; margin: auto; gap: 20px; padding: 30px; justify-content: center; flex-wrap: wrap;">
+      <div class="card" style="width: 30%; min-width: 250px;">
+        <img class="card-img-top" src="/static/person.png" alt="John Smith">
+        <div class="card-body">
+          <p class="title" style="font-weight: bold; font-size: 1.2em;">John Smith</p>
+          <p style="color: #666; font-style: italic;">General Manager</p>
+          <p class="card-text">
+            John has been leading our dealership for 15 years, bringing extensive automotive 
+            expertise and exceptional customer service to every interaction.
+          </p>
+          <p style="color: #007bff;">john.smith@bestcars.com</p>
+        </div>
+      </div>
 
+      <div class="card" style="width: 30%; min-width: 250px;">
+        <img class="card-img-top" src="/static/person.png" alt="Sarah Johnson">
+        <div class="card-body">
+          <p class="title" style="font-weight: bold; font-size: 1.2em;">Sarah Johnson</p>
+          <p style="color: #666; font-style: italic;">Sales Director</p>
+          <p class="card-text">
+            Sarah specializes in matching customers with their dream vehicles. Her passion 
+            for cars and people makes every purchase experience memorable.
+          </p>
+          <p style="color: #007bff;">sarah.johnson@bestcars.com</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 30%; min-width: 250px;">
+        <img class="card-img-top" src="/static/person.png" alt="Michael Davis">
+        <div class="card-body">
+          <p class="title" style="font-weight: bold; font-size: 1.2em;">Michael Davis</p>
+          <p style="color: #666; font-style: italic;">Service Manager</p>
+          <p class="card-text">
+            Michael ensures every vehicle meets our high standards. With 20 years of 
+            mechanical experience, he guarantees quality and reliability.
+          </p>
+          <p style="color: #007bff;">michael.davis@bestcars.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
